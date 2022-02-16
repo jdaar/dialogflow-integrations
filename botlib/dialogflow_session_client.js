@@ -16,7 +16,7 @@
 /**
  * @fileoverview Contacts dialogflow and returns response.
  */
-const dialogflow = require('dialogflow');
+const dialogflow = require('dialogflow').v2beta1;
 const jsonToProto = require('./json_to_proto')
 module.exports = class DialogflowSessionClient {
 
